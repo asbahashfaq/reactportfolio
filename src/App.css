@@ -1,5 +1,17 @@
+
+body{
+  background-image: url('../public/images/bg4.png');
+  background-size: 50%;
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: rgb(168 164 202);
+  background: linear-gradient(0deg, rgb(1 5 53 / 92%) 0%, rgb(4 29 80) 25%, rgb(6 239 252) 50%, rgb(19 53 84) 75%, rgb(19 43 77) 100%); */
+}
 .App {
   text-align: center;
+  background-color: #ffffffad;
+  min-height: 100vh;
 }
 
 .App-logo {

@@ -1,0 +1,295 @@
+body * {
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.mainHeading {
+    font-size: 2em;
+    text-align: left;
+}
+
+h2.subHeading {
+    text-align: left;
+    padding-left: 10px;
+    margin: 30px 0px;
+}
+.experiencesPage, .projectsPage, .skillsPage, .educationPage, .externallinksPage, .publicationsPage, .aboutPage, .hobbiesPage {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+.backButton {
+    padding: 15px 40px;
+    position: absolute;
+    right: 80px;
+    top: 80px;
+    font-size: 1.5em;
+    border: 2px solid #5a84b9f7;
+    border-radius: 6px;
+    background-color: #0000004f;
+    color: white;
+}
+.backButton:hover{
+    cursor: pointer;
+    border-color: orange;
+}
+.experiencesPage{
+    .role{
+    
+        >ul{
+            padding:0;
+            list-style:none;
+            padding: 0px 20px;
+            >li {
+                position: relative;
+                background-color: #e0e0e094; 
+                margin-bottom: 20px;
+                border-radius: 12px;
+                padding: 30px 30px;
+                h3 {
+                    margin: 5px 0px;
+                }
+                .Duration {
+                    position: absolute;
+                    top: 37px;
+                    right: 60px;    
+                    font-weight: bold;
+                }
+                .tasks {
+                    padding: 20px 50px;
+                    font-size: 1.1em;
+                }
+            }
+    
+        }
+        
+    }
+    .volunteerWork{  
+            div {
+                position: relative;
+                background-color: #e0e0e094;  
+                border-radius: 12px;
+                padding: 30px 30px;
+                margin: 20px;
+                h3 {
+                    margin: 5px 0px;
+                }
+                .duration {
+                    position: absolute;
+                    top: 37px;
+                    right: 60px;
+                    font-weight: bold;
+                }
+                p {
+                    padding: 20px 50px;
+                    font-size: 1.1em;
+                }
+            }
+     
+    }
+    a {
+        color: black;
+    }
+}
+
+.projectsPage {
+    font-size: 1.2em;
+    img{
+        margin: 0 auto;
+        display: block;
+        border: 5px solid orange;
+        width: 80%;
+    }
+
+    .tech {
+        padding-bottom: 22px;
+        padding-left: 0;
+        li {
+            display: inline;
+            text-align: left;
+        }
+        li:before{
+            content: " ✓ ";
+        }
+    }
+    .functionality {
+        padding: 30px;
+    }
+    .functionality:before {
+        content: "Functionality:";
+        padding-bottom: 15px;
+        display: block;
+    }
+}
+
+.skillsPage{
+    ul {
+        display: grid;
+        list-style: none;
+        padding: 20px 100px;
+        grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+        grid-gap: 20px; 
+        justify-items: center;
+        li {
+            width: 180px;
+            padding: 30px 10px;
+            background-color: #0000001c;
+            border: 2px solid orange;
+            border-radius: 5px;
+            font-size: 1.3em;
+            transition: 0.3s;
+            text-align: center;
+        }
+        li:hover{
+            transform:rotateZ(15deg);
+            transition: 0.5s;
+        }
+    }
+}
+.educationPage{
+    font-size: 1.2em;
+    img{
+        margin: 0 auto;
+        display: block;
+        border: 2px solid orange;
+        width: 80%;
+    }
+    ul {
+        list-style: none;
+        padding: 20px;
+        li{
+            display: grid;
+            grid-template-columns: 270px 1fr;
+            margin-bottom: 20px;
+            .subHeading {
+                margin: 0px;
+            }
+            h4{
+                margin: 8px 0px;
+            }
+            img{
+                padding:10px;
+            }
+
+        }
+    }
+
+}
+
+.externallinksPage{
+    ul {
+        padding-top:100px;
+        list-style: none;
+        padding-left: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 80px;
+
+        li {
+            font-size: 1.4em;
+            width: 140px;
+            margin: 0px auto;
+            cursor: pointer;
+            text-align: center;
+            a {
+                text-decoration: none;
+                color: #3c6292f7;
+            }
+        }
+    }
+}
+.publicationsPage{
+    font-size: 1.2em;
+    ul{
+        list-style: none;
+        padding: 0px;
+        position: relative;
+        li{
+            margin: 0%;
+            max-width: 100%;
+            padding: 12px;
+        }
+    }
+    h3, p{
+         
+    }
+    img{
+        width: 100%;
+    }
+
+}
+
+.aboutPage{
+    .text {
+        line-height: 2em;
+        font-size: 1.5em;
+    }
+    .lifeRule {
+        padding: 50px;
+        background-color: #ffa50054;
+        border-radius: 6px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        width: 80%;
+        font-family: cursive;
+        box-shadow: 4px 4px 10px #a68d8d;
+    }
+    .getInTouch{
+        ul {
+            padding-top: 20px;
+            list-style: none;
+            padding-left: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 80px;
+    
+            li {
+                font-size: 1.2em;
+                width: 140px;
+                margin: 0px auto;
+                cursor: pointer;
+                text-align: center;
+                a {
+                    text-decoration: none;
+                    color: #3c6292f7;
+                }
+            }
+        }
+    }
+
+}
+
+.hobbiesPage{
+    ul {
+        display: grid;
+        list-style: none;
+        padding: 20px 100px;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        grid-gap: 20px; 
+        justify-items: center;
+        li {
+            width: 250px;
+            padding: 30px 20px;
+            background-color: #0000001c;
+            border: 2px solid orange;
+            border-radius: 5px;
+            font-size: 1.3em;
+            transition: 0.3s;
+            text-align: center;
+        }
+        li:hover{
+            transform:rotateZ(15deg);
+            transition: 0.5s;
+        }
+    }
+}
+
+footer {
+    padding: 30px;
+    background-color: #00000017;
+    text-align: center;
+    font-size: 1.2em;
+    color: gray;
+}
